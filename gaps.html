@@ -1,0 +1,37 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="routemyday.css">
+	<title>Route My Day</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="logo">
+		<h1>Route My Day</h1>
+	</div>
+	<div class="progressbar">
+	<span style="width: 25%"></span>
+	</div>
+
+	<div class="entry">
+		<p>Thanks, so far so good. Now, can you tell us where {Event Name} takes place?</p> 
+		<form>
+				<label for="event_location_name">Location</label>
+  				<input type="text" title="Starbucks" name="event_location_place" id="home_place" required>
+				 <label for="event_location_address">Address</label>
+  				<input type="text" title="State and Madison, Chicago, IL" name="event_location_address" id="event_location_address" required>
+    			<input type="submit" name="home_submit" id="button_submit" value="ENTER LOCATION">
+    			
+		</form>
+	</div>	
+</div>
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="routemyday.js"></script>
+</html>

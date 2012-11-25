@@ -1,0 +1,34 @@
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="routemyday.css">
+	<title>Route My Day</title>	
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="wrapper">
+	<div class="logo">
+		<h1>Route My Day</h1>
+	</div>
+
+	<div class="entry">
+		<p>We need a little more information to build your transit calendar. First, tell us where you start your day.</p> 
+		<form>
+				<label for="home_name">Place</label>
+  				<input type="text" title="My Crib" name="home_place" id="home_place" required>
+				 <label for="home_address">Address</label>
+  				<input type="text" title="Easy Street, Chicago, IL" name="home_address" id="home_address" required>
+    			<input type="submit" name="home_submit" id="button_submit" value="ENTER MY HOME">
+    			
+		</form>
+	</div>	
+</div>
+
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="routemyday.js"></script>
+</html>
