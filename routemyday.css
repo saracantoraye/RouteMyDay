@@ -83,6 +83,21 @@ padding: 5px;
 vertical-align: middle;
 }
 
+::-webkit-input-placeholder {
+font-style: italic;
+}
+
+
+:-moz-placeholder {
+font-style: italic;
+}
+
+
+:-ms-input-placeholder {
+font-style: italic;
+}
+
+
 #button_submit {
   border-radius: 4px;
   color: #0772a1;
@@ -107,7 +122,22 @@ font-size: 10px;
   font-size: 16px;
 }
 
-/* progress bar */
+/* progress bar w/dots test*/
+
+
+/*
+
+.progressbar ul {
+	height: 15px;
+	margin: 15px 10px 5px 10px;
+	list-style
+}
+
+
+*/
+
+
+
 
 .progressbar {
 	height: 15px;
@@ -215,7 +245,6 @@ margin: 5px 10px 5px 10px;
 height: 500px;
 text-indent: 0;
 text-transform: none;
-
 }
 
 /* full day view */
@@ -254,6 +283,7 @@ text-transform: none;
 }
 
 
+/* full day view with accordion*/
 
 
 
